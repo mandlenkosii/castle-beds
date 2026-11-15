@@ -1,12 +1,14 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-charcoal: #292721;
-  --color-ivory: #e9e2d7;
-  --color-ivory-light: #f4f0ea;
-  --color-sand: #b7a48a;
-  --color-taupe: #746b5c;
-  --color-olive: #777c6c;
+  /* Palette drawn from the Castle Bed logo: navy wordmark, grey bed, soft blue wave.
+     Token names are historical; values are the cool grey/blue scheme. */
+  --color-charcoal: #1f2d44; /* deep navy — text, dark sections */
+  --color-ivory: #e3e7ec; /* cool light grey */
+  --color-ivory-light: #f3f5f7; /* page background */
+  --color-sand: #8fb0d3; /* soft logo blue — accents */
+  --color-taupe: #5e6876; /* slate grey — muted text */
+  --color-olive: #4d5b70; /* blue-grey — feature sections */
 
   --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
@@ -37,7 +39,7 @@
   }
 
   ::selection {
-    @apply bg-sand text-white;
+    @apply bg-sand text-charcoal;
   }
 
   input,
