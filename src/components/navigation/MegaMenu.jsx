@@ -11,7 +11,7 @@ export default function MegaMenu({ open, onClose }) {
       onKeyDown={(e) => e.key === 'Escape' && onClose()}
     >
       <div className="container-wide grid grid-cols-12 gap-10 py-12">
-        <div className="col-span-8 grid grid-cols-5 gap-8">
+        <div className="col-span-8 grid grid-cols-4 gap-8">
           {collections.map((c) => (
             <div key={c.slug}>
               <Link

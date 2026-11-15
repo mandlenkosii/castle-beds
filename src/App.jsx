@@ -19,7 +19,7 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="shop" element={<Shop />} />
-        {/* living-room, bedroom, dining, tables, accessories */}
+        {/* living-room, bedroom, dining, tables */}
         <Route path="collections/:slug" element={<Collection />} />
         <Route path="product/:slug" element={<ProductDetail />} />
         <Route path="bespoke" element={<Bespoke />} />

@@ -20,7 +20,7 @@ export default function Shop() {
         alt="A bright, neutral living room with cream sofas and a natural stone coffee table"
         eyebrow={`${products.length} pieces`}
         title={query ? `Results for “${query}”` : 'Shop all furniture'}
-        description="Sofas, beds, tables and finishing pieces — designed to work together and made to last."
+        description="Sofas, beds, dining and occasional tables — designed to work together and made to last."
         height="sm"
       />
       <CollectionView

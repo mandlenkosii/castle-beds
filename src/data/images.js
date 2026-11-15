@@ -38,7 +38,6 @@ export const images = {
   collectionBedroom: '1617098900591-3f90928e8c54',
   collectionDining: '1617806118233-18e1de247200',
   collectionTables: '1615874694520-474822394e73',
-  collectionAccessories: '1617806265182-7b3f847f0b75',
 
   // Our Story
   storyHero: '1600566753086-00f18fb6b3ea',

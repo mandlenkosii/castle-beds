@@ -46,15 +46,6 @@ export const collections = [
     image: images.collectionTables,
     types: ['Coffee Tables', 'Side Tables', 'Console Tables', 'TV Stands'],
   },
-  {
-    slug: 'accessories',
-    name: 'Home Accessories',
-    shortName: 'Accessories',
-    tagline: 'The finishing layer.',
-    description: 'Mirrors, lighting, rugs and handmade objects that complete a space and give it a sense of character.',
-    image: images.collectionAccessories,
-    types: ['Mirrors', 'Lamps', 'Rugs', 'Decorative Objects'],
-  },
 ]
 
 export function getCollection(slug) {

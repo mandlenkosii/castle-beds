@@ -20,7 +20,7 @@ Requires Node 20+.
 | --- | --- |
 | `/` | Homepage |
 | `/shop` | Shop all (supports `?q=` search) |
-| `/collections/:slug` | `living-room`, `bedroom`, `dining`, `tables`, `accessories` (supports `?type=`) |
+| `/collections/:slug` | `living-room`, `bedroom`, `dining`, `tables` (supports `?type=`) |
 | `/product/:slug` | Product details |
 | `/bespoke` | Bespoke furniture + quotation form (`#quote`) |
 | `/our-story`, `/projects`, `/trade`, `/contact` | Content pages |

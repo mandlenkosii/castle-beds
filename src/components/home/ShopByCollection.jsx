@@ -29,9 +29,8 @@ function CategoryCard({ to, name, tagline, image, className, sizes }) {
 const layout = [
   'h-[420px] sm:h-[520px] lg:col-span-7 lg:h-[600px]',
   'h-[420px] sm:h-[520px] lg:col-span-5 lg:h-[600px]',
-  'h-[380px] lg:col-span-4 lg:h-[460px]',
-  'h-[380px] lg:col-span-4 lg:h-[460px]',
-  'h-[380px] lg:col-span-4 lg:h-[460px]',
+  'h-[380px] lg:col-span-5 lg:h-[460px]',
+  'h-[380px] lg:col-span-7 lg:h-[460px]',
 ]
 
 export default function ShopByCollection() {
@@ -50,7 +49,7 @@ export default function ShopByCollection() {
             name={c.name}
             tagline={c.tagline}
             image={c.image}
-            className={`${layout[i]} ${i === 4 ? 'sm:col-span-2 lg:col-span-4' : ''}`}
+            className={layout[i]}
             sizes={i < 2 ? '(min-width: 1024px) 55vw, 100vw' : '(min-width: 1024px) 33vw, 100vw'}
           />
         ))}

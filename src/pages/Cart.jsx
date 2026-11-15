@@ -23,7 +23,7 @@ export default function Cart() {
           <ShoppingBag size={36} strokeWidth={1} className="text-taupe" />
           <h1 className="display-lg mt-8">Your bag is empty.</h1>
           <p className="mt-5 max-w-md text-taupe">
-            Discover sofas, beds, tables and finishing pieces designed for everyday living — or start a bespoke piece
+            Discover sofas, beds, dining and occasional tables designed for everyday living — or start a bespoke piece
             made just for you.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">

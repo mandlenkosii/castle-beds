@@ -7,7 +7,7 @@ import { formatPrice } from '../../utils/format'
 import { useLockBodyScroll } from '../../hooks/useLockBodyScroll'
 import Image from '../common/Image'
 
-const suggestions = ['Sofa', 'Oak', 'Bouclé', 'Travertine', 'Dining chair', 'Mirror']
+const suggestions = ['Sofa', 'Oak', 'Bouclé', 'Travertine', 'Dining chair', 'Bed']
 
 export default function SearchOverlay({ open, onClose }) {
   const [query, setQuery] = useState('')
