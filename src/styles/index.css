@@ -9,8 +9,10 @@
   --color-sand: #8fb0d3; /* soft logo blue — accents */
   --color-taupe: #5e6876; /* slate grey — muted text */
   --color-olive: #4d5b70; /* blue-grey — feature sections */
+  --color-brand: #0a78ab; /* logo wordmark blue */
 
   --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-display: 'Montserrat', 'Inter', ui-sans-serif, system-ui, sans-serif;
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
 
   --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);

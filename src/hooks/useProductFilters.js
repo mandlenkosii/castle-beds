@@ -4,8 +4,8 @@ import { searchProducts } from '../data/products'
 export const priceBands = [
   { id: 'under-5k', label: 'Under R5,000', min: 0, max: 4999 },
   { id: '5k-10k', label: 'R5,000 – R10,000', min: 5000, max: 10000 },
-  { id: '10k-20k', label: 'R10,000 – R20,000', min: 10001, max: 20000 },
-  { id: 'over-20k', label: 'Over R20,000', min: 20001, max: Infinity },
+  { id: '10k-15k', label: 'R10,000 – R15,000', min: 10001, max: 15000 },
+  { id: '15k-20k', label: 'R15,000 – R20,000', min: 15001, max: 20000 },
 ]
 
 export const sortOptions = [
